@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  /* Sans serif sem decoraçõezinhas */
+}
+img {
+  margin-top: 100px;
+}
+#container {
+  width: 80%;
+  margin-inline: auto;
+  max-width: 400px;
+}
+h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 40px;
+  opacity: 90%;
+}
+input, button {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+button {
+  margin-top: 20px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  transition: filter .2s;
+}
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+#resposta {
+  margin-top: 30px;
+  transition: opacity 1s;
+}
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: .9;
+  margin-bottom: 10px;
+}
